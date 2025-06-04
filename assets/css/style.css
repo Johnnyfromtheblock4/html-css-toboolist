@@ -1,5 +1,4 @@
 /* RESET */
-
 * {
   margin: 0;
   padding: 0;
@@ -7,22 +6,108 @@
 }
 
 /* HEADER */
-body {
-  display: inline-block;
-}
-
 header {
   padding-top: 15px;
   padding-left: 25px;
   font-family: "Trebuchet MS", Tahoma, sans-serif;
 }
 
+h1 {
+  font-weight: bold;
+}
+
 .thumb {
-  width: 75px;
   vertical-align: middle;
 }
 
-.centered-p {
-  font-size: 35px;
-  font-weight: bold;
+/* MAIN */
+
+main {
+  background-color: beige;
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+
+.container-1 {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.buttons {
+  background-color: white;
+  padding-left: 30px;
+  padding: 10px 20px;
+}
+
+.box {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.box-blue {
+  background-color: #46A3E0;
+  color: white;
+  text-transform: capitalize;
+}
+
+.box-white {
+  border: 1px solid #CECECE;
+  color: #CECECE;
+  text-transform: capitalize;
+}
+
+.container-2 {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.elenco {
+  background-color: white;
+  padding-left: 30px;
+  padding: 10px 20px;
+}
+
+.main-list {
+  font-size: 25px;
+  font-weight: bolder;
+
+}
+
+ul {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+button {
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 10px;
+  border: 1px solid #CECECE;
+}
+
+.editorials {
+  background-color: #46A3E0;
+}
+
+.q1-goals {
+  background-color: #8D67CF;
+}
+
+.recruiting {
+  background-color: #62C2A6;
+}
+
+.mobile {
+  background-color: #CF882D;
+}
+
+.website {
+  background-color: #D0629E;
+}
+
+.sales {
+  background-color: #94AA22;
 }
