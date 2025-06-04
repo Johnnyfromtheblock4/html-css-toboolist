@@ -10,6 +10,7 @@ header {
   padding-top: 15px;
   padding-left: 25px;
   font-family: "Trebuchet MS", Tahoma, sans-serif;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -25,14 +26,17 @@ h1 {
 main {
   background-color: beige;
   font-family: "Trebuchet MS", Tahoma, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
 
 .container-1 {
   max-width: 1100px;
   margin: 0 auto;
   background-color: white;
-  margin top: 10px;
-  margin bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .buttons {
@@ -63,8 +67,8 @@ main {
   max-width: 1100px;
   margin: 0 auto;
   background-color: white;
-  margin top: 10px;
-  margin bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .elenco {
